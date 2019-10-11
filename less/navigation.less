@@ -6,11 +6,11 @@ body{
         background-color: #f4f4f4;
         padding: 20px;
         text-align: center;
-        height: 10vh;
-        display: flex;
+        .flexbox();
         flex-direction: column;
+        width: 100%;
 
-        h1{
+        h1 {
             font-size: 4.4rem;
             margin-bottom: 20px;
         }
@@ -20,6 +20,10 @@ body{
             text-decoration: none;
             color: @shuttle-gray;
             padding: 10px 20px;
+
+            @media @phone {
+                padding: 10px;
+            }
         }
 
     }
