@@ -51,7 +51,7 @@ CSS has limited functionality, providing basic design to a webpage. A preprocess
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Favourite: parameter mixins and variables. Having worked with JavaScript, I enjoy working with the similar concepts of arguments and functions. The variables allows me to set up a colour scheme at the beginning without having to keep referring back to find the correct Hexadecimal or rbg colour.
+Favourite: parametric mixins and variables. Having worked with JavaScript, I enjoy working with the similar concepts of arguments and functions. The variables allows me to set up a colour scheme at the beginning without having to keep referring back to find the correct Hexadecimal or rbg colour.
 Most troubled: nesting. I’m sure in time I will get to grips with nesting; however, currently there are times where I am getting confused as to which level I am in. I will have to check where I am in the correct location, or when scrolling up through the file, it is easy to confuse which section you are in. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.

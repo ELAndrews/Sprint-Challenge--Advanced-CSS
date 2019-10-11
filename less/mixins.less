@@ -1,11 +1,15 @@
 // Mixins Here
 
-.1 (){
-
+.flexbox(){
+    display: flex;
 }
 
-.2 (){
-
+.widthMargin (@width, @marginT, @marginR, @marginB, @marginL){
+    width: @width;
+    margin-top: @marginT;
+    margin-right: @marginR;
+    margin-bottom: @marginB;
+    margin-left: @marginL;
 }
 
 .button (@back-color, @color, @fSize){
