@@ -1,1 +1,21 @@
 // Mixins Here
+
+.flexbox(){
+    display: flex;
+}
+
+.widthMargin (@width, @marginT, @marginR, @marginB, @marginL){
+    width: @width;
+    margin-top: @marginT;
+    margin-right: @marginR;
+    margin-bottom: @marginB;
+    margin-left: @marginL;
+}
+
+.button (@back-color, @color, @fSize){
+    background-color: @back-color;
+    color: @color;
+    font-size: @fSize;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

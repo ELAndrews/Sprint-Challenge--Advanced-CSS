@@ -1,1 +1,80 @@
 // Navigation code here
+body{
+    width: 100vw;
+
+    nav{
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+        .flexbox();
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        opacity: 0.9;
+
+        h1 {
+            font-size: 4.4rem;
+            margin-bottom: 20px;
+        }
+
+        a{
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: @shuttle-gray;
+            padding: 10px 20px;
+
+            @media @phone {
+                padding: 10px;
+            }
+        }
+
+        .stars {
+            position: absolute;
+            width: 100%;
+
+            .stars-left, .stars-right {
+                width: 25%;
+                position: absolute;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+                i{
+                    padding: 5% 15%;
+                    color: white;
+
+                    @media (max-width: 1350px){
+                        padding: 5% 12%;
+                    }
+
+                    @media (max-width: 700px){
+                        padding: 5% 10%;
+                    }
+                    
+                }
+            }
+
+            .stars-left{
+                left: 10%;
+
+                @media (max-width: 1350px){
+                    left: 5%;
+                }
+
+                @media (max-width: 1350px){
+                    left: 1%;
+                }
+            }
+
+            .stars-right{
+                right: 10%;
+
+                @media (max-width: 1350px){
+                    right: 5%;
+                }
+            }
+        }
+
+    }
+}

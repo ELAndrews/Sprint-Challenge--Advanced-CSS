@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A fully responsive design will utilise css stylings using %, vw, and vh to ensure that the website design is displayed as all device sizes. Responsive designs will also use media queries to manipulate the website design to ensure that the design is appropriate for the device. 
+An adaptive design uses fixed sizing in its styling. Adaptive designs work with different sized devices by using breakpoints. Each breakpoint, identified by a media query, provides an appropriate layout for the device. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first and desktop first are approaches on how to develop a media query. A media query based on width will require an argument of min-width or max-width; which one to be used is dependent on whether your starting design is from a mobile or desktop. Provided with a desktop design which needs to be responsive/adaptive will use mad-width media query breaks to develop a tablet and/or mobile design. Mobile first works in reverse. Whether to be mobile first of desktop first is usually decided by the company you are working for, however it is the normal to design based on user interaction.  
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+A browser has default settings, including font-size. The default font-size in a browser is 16px. When working with rem’s is can be difficult to work with a starting point of 16px. By using font-size: 62.5%; we change our base font-size to 10px allowing for easier manipulation with rem throughout the reset of the design.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS has limited functionality, providing basic design to a webpage. A preprocessing language (such as SASS or LESS) is a higher level language that gives more functionality. With a preprocessing you are in keeping with the DRY concept; by introducing nesting, mixins and variables your code becomes cleaner and smarter. We then use a compiler which translates our higher-level preprocessing language into the lower level language of CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Favourite: parametric mixins and variables. Having worked with JavaScript, I enjoy working with the similar concepts of arguments and functions. The variables allows me to set up a colour scheme at the beginning without having to keep referring back to find the correct Hexadecimal or rbg colour.
+Most troubled: nesting. I’m sure in time I will get to grips with nesting; however, currently there are times where I am getting confused as to which level I am in. I will have to check where I am in the correct location, or when scrolling up through the file, it is easy to confuse which section you are in. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
