@@ -209,6 +209,7 @@ body nav .stars .stars-right {
 body nav .stars .stars-left i,
 body nav .stars .stars-right i {
   padding: 5% 15%;
+  color: white;
 }
 @media (max-width: 1350px) {
   body nav .stars .stars-left i,
