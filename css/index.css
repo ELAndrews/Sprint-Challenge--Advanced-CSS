@@ -194,6 +194,55 @@ body nav a {
     padding: 10px;
   }
 }
+body nav .stars {
+  position: absolute;
+  width: 100%;
+}
+body nav .stars .stars-left,
+body nav .stars .stars-right {
+  width: 25%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body nav .stars .stars-left i,
+body nav .stars .stars-right i {
+  padding: 5% 15%;
+}
+@media (max-width: 1350px) {
+  body nav .stars .stars-left i,
+  body nav .stars .stars-right i {
+    padding: 5% 12%;
+  }
+}
+@media (max-width: 700px) {
+  body nav .stars .stars-left i,
+  body nav .stars .stars-right i {
+    padding: 5% 10%;
+  }
+}
+body nav .stars .stars-left {
+  left: 10%;
+}
+@media (max-width: 1350px) {
+  body nav .stars .stars-left {
+    left: 5%;
+  }
+}
+@media (max-width: 1350px) {
+  body nav .stars .stars-left {
+    left: 1%;
+  }
+}
+body nav .stars .stars-right {
+  right: 10%;
+}
+@media (max-width: 1350px) {
+  body nav .stars .stars-right {
+    right: 5%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -216,7 +265,12 @@ footer {
   }
 }
 .home .intro {
-  padding-top: 15vh;
+  padding-top: 115px;
+}
+@media (max-width: 500px) {
+  .home .intro {
+    padding-top: 23%;
+  }
 }
 .home .intro img {
   width: 100%;

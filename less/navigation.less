@@ -29,5 +29,50 @@ body{
             }
         }
 
+        .stars {
+            position: absolute;
+            width: 100%;
+
+            .stars-left, .stars-right {
+                width: 25%;
+                position: absolute;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+                i{
+                    padding: 5% 15%;
+
+                    @media (max-width: 1350px){
+                        padding: 5% 12%;
+                    }
+
+                    @media (max-width: 700px){
+                        padding: 5% 10%;
+                    }
+                }
+            }
+
+            .stars-left{
+                left: 10%;
+
+                @media (max-width: 1350px){
+                    left: 5%;
+                }
+
+                @media (max-width: 1350px){
+                    left: 1%;
+                }
+            }
+
+            .stars-right{
+                right: 10%;
+
+                @media (max-width: 1350px){
+                    right: 5%;
+                }
+            }
+        }
+
     }
 }
