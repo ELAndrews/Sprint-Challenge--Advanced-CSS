@@ -175,6 +175,9 @@ body nav {
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.9;
 }
 body nav h1 {
   font-size: 4.4rem;
@@ -211,6 +214,9 @@ footer {
     width: 100%;
     padding: unset;
   }
+}
+.home .intro {
+  padding-top: 15vh;
 }
 .home .intro img {
   width: 100%;
